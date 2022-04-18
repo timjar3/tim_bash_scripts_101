@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "type": "bashdb",
+        "request": "launch",
+        "name": "Jenkins_Install.sh",
+        "cwd": cd D:\Git_hub_repo\tim_bash_scripts_101,
+        "program": "${command:AskForScriptName}",
+        "args": []
+    }
+    ]
+}
